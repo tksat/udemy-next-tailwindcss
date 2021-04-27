@@ -1,8 +1,10 @@
+import Layout from '../components/Layout'
+
 const Blog = () => {
   return (
-    <div>
-      Blog page
-    </div>
+    <Layout title="blog" >
+      <p className="text-4xl">Blog page</p>
+    </Layout>
   )
 }
 
